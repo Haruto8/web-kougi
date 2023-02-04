@@ -1,1 +1,1 @@
-# kougi-2
+# web-kougi
