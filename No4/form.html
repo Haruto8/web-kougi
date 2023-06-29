@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>127.0.0.1:5500/local/04form.html</title>
+    <style>
+        form {
+  /* フォームの輪郭 */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+    </style>
+</head>
+
+<body>
+    <h2>ここまでの講座の感想</h2>
+    <form
+        action=" https://script.google.com/macros/s/AKfycbzyGcZiX4JttzCJEafiyEd8XHR9TUNv_JeSRV2iyLYFT_ZwAOg8f2IDMKxP8wOj4BGPbg/exec"
+        method="post">
+        <ul>
+
+            <il>
+                <label for="name">・ハンドルネーム</label>
+                <input type="text" name="user-name" id="name">
+            </il>
+            <br>
+            <il>
+                <label for="master">・ここまでの身に付き具合を1~10の数字で</label>
+                <select id="master" name="user-master">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </il>
+            <br>
+            <il>
+                <label for="msg">・感想</label>
+                <textarea id="msg" name="user-message"></textarea>
+            </il>
+            <il>
+                <label></label>
+            </il>
+        </ul>
+    </form>
+</body>
+
+</html>
